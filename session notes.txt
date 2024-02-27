@@ -1,0 +1,311 @@
+Full stack JAVA Dev:
+	Section 1: UI Design:
+		HTML
+		CSS
+		JS 
+		Jquery
+		Bootstrap
+	Section 2: DBMS
+		SQL Queries
+	Section 3: CORE JAVA
+	Section 4: Spring Framework
+	Servlet 
+	spring boot
+	REST API
+	Microservices
+	Section 5: Angular/React
+	Section 6: Operation & Deployment
+Core JAVA:
+	1. OAK
+	java -> Purely OOPS
+	platform i/d
+Editors:
+	Netbeans 7/8
+	Eclipse 2022-03
+	IntelliJ IDEA
+javac filename.java
+hello.java
+D:/cse/hello.java
+hello.class -> JVM ->   
+
+JDK,->java dev/. kit
+ JRE,->Java Runtime Env/.
+JVM -> Java Virtual Machine,
+
+Structure of JAVA:
+	package declaration
+	Class Defn
+	    Data Members
+            Member Function
+File->New->Project->Java Project->ProjectName->Next->Next->Finish
+Module->No
+Open perspective->No
+
+Window->Show View->Project Explorer
+
+System.println
+public
+static->variable,class,func
+void
+main
+Data Types:
+	int
+	float
+	double
+	long
+	boolean
+	char
+	String
+Variable:
+	datatype varname;
+Reading an ip value:
+Classname objname=new Classname();
+Scanner input=new Scanner(System.in);
+Operators:
+Arithmetic
+Relational
+Assignment
+Increment/Decrement
+++
+--
+System.out.print
+("PreIncrement: "+(++a));//11
+		a++=?11/12
+
+a=6
+a++ ->Post Increment
+a-- ->Post Decrement
+++a ->Pre Increment
+--a ->Post Decrement
+Decision Making:	
+	If
+	  Simple if
+	  If Else
+	  Else if
+	  Nested If
+	Switch
+Looping Statement:
+	while
+	for(init;cond;inc/dec
+	do-while
+n=5;
+res;
+1 * 5 =5
+2  *5 =10
+Object Oriented Concepts:
+	1. Classes & Objects
+		Objects : Real Time Entity
+		State and Behaviour
+		Student:
+			name, rollno, age, dept -> State
+			functionalities -> behaviour
+		Class: Collection of data members and member function
+	2. Encapsulation:
+		wrapping up of data and objects together
+		Implementation:
+			1. Access Specifier/Visibility indicator
+				private, ->within the class
+				protected, ->within the class and its 					derived class
+				 public
+			2. Declare all properties in private 
+			3. Getters and Setters method
+	3. Polymorphism:
+		ability of an object -> act in  more than one form
+		Function Overloading
+			1. Function name should be same
+			2. Defined in same class
+			3. Must Differ either by no.of.arg/. or type of 			arg/.
+	  	Constructor:
+			constructor name should be same as class name
+			Similar to functions
+			No return type
+
+	4. Inheritance:
+		Deriving a new class from exisiting class		
+		New Class->Derived Class, Child class, Sub Class
+		Existing Class -> Base Class, Parent Class, Super class
+		Implemented using Function Overriding(same function in 			different class)
+		Reusability.
+		Types of Inheritance:
+			1. Single Inheritance
+			2. Multiple Inheritance(multiple base class->one 			dervied class)
+			3. Multilevel Inheritance(Level By Level)
+				A->B
+				B->C
+				C->D		
+			4. Hierarchical Inheritance(one base class->multiple derived class)
+			5. Hybrid Inheritance
+	Multiple Inheritance:	
+		More than one base -> One Derived Class
+		Method Calling conflict.
+	4. Interfaces
+		Similar to 
+
+	5. Abstraction:
+		hiding background details 
+		Implemented using abstract classes
+final, static, abstract
+	final variable
+	final class
+	static class
+	static variable
+	static method
+
+Generics:
+	1. int a=10;
+		a=1.5, "Arthi"
+	5+10
+	5.5+10.5
+	Paramaterized Types
+		->Generic Variable
+		->Generic Class
+		->Generic Method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exception Handling:
+A -> A()
+B ->B()
+	1. Handlers
+		try -> statement that can cause 		exception	
+		catch -> handle exception
+		throw ->throw an exception
+		throws -> declare an exception
+		finally ->always executed.
+	2. Custom Exception
+		1. Derive the class from exception 		class
+		2. Invoke the constructor of base class
+
+File Handling:
+	Stream -> InputStream/OutputStream
+	1. File ->Creates a new file
+	2. FileWriter
+	3. FileReader -> read()=-1
+
+D:/a/b/c/intern.txt
+
+c/intern.txt
+
+Arrays:
+	1. collection of similar data type
+	2. Single Dimensional Array
+	3. MultiDimensional Array
+
+JAVA 8 Features:
+	1. Collection Framework
+		List
+			->forEach
+				for(new var:exvar){.....}
+			->using Iterator
+				->iterator -> fetches all elements
+				->next() -> returns next element
+				->hasNext() -> Boolean -> checks whether there exists an next element or not
+		Set
+		Map
+			->Pair of Data
+			-> Key 	Value
+			   100	Arthi
+			->entryset
+			->entry
+
+	2. Functional Interfaces
+			->contains exactly one abstract method
+			->@FunctionalInterface
+			->Lambda Expression 
+				(argument)->{  }
+			Anonymous class
+Java Database Connnection:
+	1. Connection
+	2. Statement
+	3. ResultSet
+
+SPring Framework:
+	1. Collection of libraries
+	2. Blueprint
+	3. struts, JSF,
+	4. Dependency Injection
+		->removes dependency from the 			program
+	   IOC Container
+		ApplicationContext
+		BeanFactory
+	5. Bean Class
+		->POJO Class -> Pure JAva Object
+		->properties with getter/setters/constructor
+	6. Data Access:
+		JDBC ->
+		ORM ->Object Relational Mapping
+		OXM
+		JMS-> Java Messaging Service
+	7. Web:
+		MVC-> Model View Controller
+		Model -> Database
+		View  -> UI
+		Controller -> Business Logic		8. Dependency Injection:
+		1. Setter Injection
+		2. Constructor Injection
+		3. Autowired
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DriverManager
+
+Servlet -> MVC
+Spring:
+Spring Boot
+REST API
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
