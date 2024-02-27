@@ -1,0 +1,15 @@
+package calc;
+
+import java.util.Scanner;
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a[]=new int [5];
+		System.out.println("Enter array elements");
+		Scanner s=new Scanner(System.in);
+	}
+
+}

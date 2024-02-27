@@ -1,0 +1,13 @@
+package calc;
+
+public class MultiArrays {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a[][]=new int[3][3];
+		int b[][]=new int[3][3];
+		int c[][]=new int[3][3];
+	}
+
+}

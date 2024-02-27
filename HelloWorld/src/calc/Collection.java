@@ -1,0 +1,33 @@
+package calc;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class Collection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> fruits=new ArrayList<String>();
+		fruits.add("Apple");
+		fruits.add("Oranges");
+		fruits.add("Banana");
+		fruits.add("Strawberry");
+		fruits.add("Strawberry");
+		fruits.add("Strawberry");
+		fruits.add("Strawberry");
+		fruits.add("Blueberry");
+		fruits.remove(2);
+		System.out.println(fruits);
+		for(String f :fruits)
+		{
+			System.out.println(f);
+		}
+		Iterator itr=fruits.iterator();
+		//itr={"apple","orange",.....}
+		while(itr.hasNext()) {
+			System.out.println(itr.next());
+		}
+	}
+
+}

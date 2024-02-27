@@ -1,0 +1,33 @@
+package calc;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class SetDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Set<Integer> s=new HashSet<Integer>();
+		Set<Integer> s1=new HashSet<Integer>();
+		Set<Integer> union=new HashSet<Integer>();
+		Set<Integer> inter=new HashSet<Integer>();
+		Set<Integer> diff=new HashSet<Integer>();
+		s.add(100);
+		s.add(200);
+		s.add(300);
+		s.add(400);
+		s.add(500);
+		s1.add(100);
+		s1.add(200);
+		s1.add(5000);
+		s1.add(50);
+		s1.add(4000);
+		System.out.println("SET1 :" +s);
+		System.out.println("SET2 :"+s1);
+		System.out.println("UNION: "+s.addAll(s1));
+		System.out.println("INTERSECTION: "+s.retainAll(s1));
+		System.out.println("DIFFERENCE: "+s.removeAll(s1));
+	}
+
+}
