@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="studentBean" class="com.example.demo.Student">
+		<property name="id" value="100"></property>
+		<property name="name" value="Arthi"></property>
+		<property name="dept" value="CSE"></property>
+		<property name="address" ref="addrBean"></property>
+		<property name="courses">
+			<list>
+				<value>JAVA</value>
+				<value>DotNet</value>
+				<value>PHP</value>
+				<value>Python</value>
+				<value>Flutter</value>
+			</list>
+		</property>
+		<!-- <constructor-arg name="id"><value>100</value></constructor-arg>
+		<constructor-arg name="name"><value>Arthi</value></constructor-arg>
+		<constructor-arg name="dept"><value>CSE</value></constructor-arg>
+		<constructor-arg name="address">
+			<ref bean="addrBean"></ref>
+		</constructor-arg>-->
+	</bean>
+	<bean id="addrBean" class="com.example.demo.Address">
+		<constructor-arg><value>342</value></constructor-arg>
+		<constructor-arg><value>South Street</value></constructor-arg>
+		<constructor-arg><value>Mayiladuthurai</value></constructor-arg>
+		<constructor-arg><value>TamilNadu</value></constructor-arg>
+		<constructor-arg><value>India</value></constructor-arg>
+	</bean>
+</beans>
